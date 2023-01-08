@@ -18,3 +18,11 @@ How does the DBSCAN clustering algorithm work?
 3. It will create a cluster using eps and minPts if p is a core point.
 4. It will move to the next data point if p is a border point. A data point is called a border point if it has fewer points than minPts in the neighborhood.
 5. The algorithm will continue until all points are visited.
+
+## Output
+![DBSCAN-output]()
+## Conclusion
+
+DBSCAN is one of the many algorithms that is used for customer segmentation. You can use K-means or Hierarchical clustering to get even better results. The clustering algorithms are generally used for recommendation engines, market and customer segmentation, social network Analysis, and document analysis.
+
+In this blog, we have learned the basics of the density-based algorithm DBCAN and how we can use it to create customer segmentation using scikit-learn. You can improve the algorithm by finding optimal eps and min_samples using silhouette score and heatmap.
