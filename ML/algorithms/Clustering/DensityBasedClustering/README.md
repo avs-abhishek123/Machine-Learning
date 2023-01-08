@@ -7,5 +7,6 @@ DBSCAN does not require K clusters initially. Instead, it requires two parameter
 - eps: it is the radius of specific neighborhoods. If the distance between two points is less than or equal to esp, it will be considered its neighbors.
 - minPts: minimum number of data points in a given neighborhood to form the clusters.
 
-DBSCAN uses these two parameters to define a core point, border point, or outlier.
+DBSCAN uses these two parameters to define a core point, border point, or outlier.<br>
+
 ![dbscan](https://www.kdnuggets.com/wp-content/uploads/awan_implementing_dbscan_python_2.jpg)
