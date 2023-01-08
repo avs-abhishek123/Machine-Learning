@@ -4,10 +4,10 @@ Clustering is applied on a dataset to group similar sets of data points. It look
 
 Types of clustering algorithms:
 
-- Partition-based clustering
-- Fuzzy clustering
-- Hierarchical clustering
-- Grid-Based clustering
-- Exclusive clustering
-- Overlapping clustering
-- Density-based clustering
+- [Partition-based clustering]()
+- [Fuzzy clustering]()
+- [Hierarchical clustering]()
+- [Grid-Based clustering]()
+- [Exclusive clustering]()
+- [Overlapping clustering]()
+- [Density-based clustering]()
