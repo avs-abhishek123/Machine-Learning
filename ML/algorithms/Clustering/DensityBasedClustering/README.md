@@ -20,7 +20,7 @@ How does the DBSCAN clustering algorithm work?
 5. The algorithm will continue until all points are visited.
 
 ## Output
-![DBSCAN-output]()
+![DBSCAN-output](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/dbscan.png)
 ## Conclusion
 
 DBSCAN is one of the many algorithms that is used for customer segmentation. You can use K-means or Hierarchical clustering to get even better results. The clustering algorithms are generally used for recommendation engines, market and customer segmentation, social network Analysis, and document analysis.
