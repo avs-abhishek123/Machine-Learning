@@ -171,7 +171,7 @@ Of course, the higher TPR and the lower FPR is for each threshold the better and
 
 Extensive discussion of ROC Curve and ROC AUC score can be found in this article by Tom Fawcett.
 
-We can see a healthy ROC curve, pushed towards the top-left side both for positive and negative class. It is not clear which one performs better across the board as with FPR < ~0.15 positive class is higher and starting from FPR~0.15 the negative class is above.
+We can see a healthy ROC curve, pushed towards the top-left side both for positive and negative class. It is not clear which one performs better across the board as with FPR < \~ 0.15 positive class is higher and starting from FPR ~ 0.15 the negative class is above.
 
 - - -
 
