@@ -408,6 +408,8 @@ By using the KS statistic as the metric we were able to rank BIN-101 as the best
 - when your problem is about sorting/prioritizing the most relevant observations and you care equally about positive and negative classes.
 - It can be a good addition to ROC AUC score which measures ranking/sorting performance of your model.
 
+- - -
+
 ## Balanced Accuracy
 
 Balanced Accuracy is used in both binary and multi-class classification. It's the arithmetic mean of sensitivity and specificity, its use case is when dealing with imbalanced data, i.e. when one of the target classes appears a lot more than the other.
