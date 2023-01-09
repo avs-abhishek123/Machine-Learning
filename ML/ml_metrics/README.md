@@ -1,37 +1,38 @@
 # Machine Learning Metrics
 
-| Sl. No. | Name of the Metrics |
-| :---: | :--- |
-| 1. | Accuracy |
-| 2. | True Positives |
-| 3. | True Negatives |
-| 4. | False Positives |
-| 5. | False Negatives |
-| 6. | Confusion Matrix |
-| 7. | Binary Accuracy |
-| 8. | Multiclass Accuracy |
-| 9. | Precision <-> Positive Predictive Value |
-| 10. | F beta score |
-| 11. | F1score_cm |
-| 12. | F2 score (beta=2) |
-| 13. | True Positives rate <-> sensitivity <-> recall |
-| 14. | True Negatives Rate <-> specificity <-> recall for neg. class |
-| 15. | ROC Curve |
-| 16. | ROC AUC score |
-| 17. | Precision Recall Curve |
-| 18. | False Positives rate (Type I Error) |
-| 19. | False Negatives Rate (Type II Error) |
-| 20. | Negative Predictive Value |
-| 21. | False Discovery Rate |
-| 22. | Cohen Kappa Metric |
-| 23. | Matthews Correlation Coefficient MCC |
-| 24. | PR AUC score (Average precision) |
-| 25. | Log loss |
-| 26. | Brier score |
-| 27. | Cumulative gains chart |
-| 28. | Lift curve (lift chart) |
-| 29. | Kolmogorov-Smirnov plot |
-| 30. | Kolmogorov-Smirnov statistic |
+| Sl. No. | Name of the Metrics | Link |
+| :---: | :--- | |
+| 1. | Accuracy | |
+| 2. | True Positives | |
+| 3. | True Negatives | |
+| 4. | False Positives | |
+| 5. | False Negatives | |
+| 6. | Confusion Matrix | |
+| 7. | Binary Accuracy | |
+| 8. | Multiclass Accuracy | |
+| 9. | Precision <-> Positive Predictive Value | |
+| 10. | F beta score | |
+| 11. | F1score_cm | |
+| 12. | F2 score (beta=2) | |
+| 13. | True Positives rate <-> sensitivity <-> recall | |
+| 14. | True Negatives Rate <-> specificity <-> recall for neg. class | |
+| 15. | ROC Curve | |
+| 16. | ROC AUC score | |
+| 17. | Precision Recall Curve | |
+| 18. | False Positives rate (Type I Error) | |
+| 19. | False Negatives Rate (Type II Error) | |
+| 20. | Negative Predictive Value | |
+| 21. | False Discovery Rate | |
+| 22. | Cohen Kappa Metric | |
+| 23. | Matthews Correlation Coefficient MCC | |
+| 24. | PR AUC score (Average precision) | |
+| 25. | Log loss | |
+| 26. | Brier score | |
+| 27. | Cumulative gains chart | |
+| 28. | Lift curve (lift chart) | |
+| 29. | Kolmogorov-Smirnov plot | |
+| 30. | Kolmogorov-Smirnov statistic | |
+| 31 | Balanced Accuracy | |
 
 ## Accuracy
 
@@ -408,3 +409,7 @@ By using the KS statistic as the metric we were able to rank BIN-101 as the best
 
 - when your problem is about sorting/prioritizing the most relevant observations and you care equally about positive and negative classes.
 - It can be a good addition to ROC AUC score which measures ranking/sorting performance of your model.
+
+## Balanced Accuracy
+
+Balanced Accuracy is used in both binary and multi-class classification. It's the arithmetic mean of sensitivity and specificity, its use case is when dealing with imbalanced data, i.e. when one of the target classes appears a lot more than the other.

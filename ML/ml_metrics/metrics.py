@@ -451,7 +451,15 @@ def kolmogorov_smirnov_statistic():
     run["logs/ks_statistic"] = ks_stat
     return ks_stat
 
-
+# end def
+def balanced_accuracy_cm(cm):
+    correctly_classified = np.diagonal(cm)
+    rows_sum = np.sum(cm, axis=1)
+    indices = np.nonzero(rows_sum)[0]
+    if rows_sum.shape[0] != indices.shape[0]:
+        warnings.warn("y_pred contains classes not in y_true")
+    accuracy_per_class = correctly_classified[indices]/(rows_sum[indices])
+    return np.sum(accuracy_per_class)/accuracy_per_class.shape[0]
 
 y = []
 probs = []
@@ -472,14 +480,3 @@ precision_recall_curve(y, probs, threshold_step=0.001)
 #plt.title("Precision-Recall curve")
 #plt.show()
 #print(np.abs(np.trapz(precisions, recalls)))
-
-
-# end def
-def balanced_accuracy_cm(cm):
-    correctly_classified = np.diagonal(cm)
-    rows_sum = np.sum(cm, axis=1)
-    indices = np.nonzero(rows_sum)[0]
-    if rows_sum.shape[0] != indices.shape[0]:
-        warnings.warn("y_pred contains classes not in y_true")
-    accuracy_per_class = correctly_classified[indices]/(rows_sum[indices])
-    return np.sum(accuracy_per_class)/accuracy_per_class.shape[0]
