@@ -3,36 +3,36 @@
 | Sl. No. | Name of the Metrics | Link |
 | :---: | :--- | :---: |
 | 1. | Accuracy | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
-| 2. | True Positives | |
-| 3. | True Negatives | |
-| 4. | False Positives | |
-| 5. | False Negatives | |
-| 6. | Confusion Matrix | |
-| 7. | Binary Accuracy | |
-| 8. | Multiclass Accuracy | |
-| 9. | Precision <-> Positive Predictive Value | |
-| 10. | F beta score | |
-| 11. | F1score_cm | |
-| 12. | F2 score (beta=2) | |
-| 13. | True Positives rate <-> sensitivity <-> recall | |
-| 14. | True Negatives Rate <-> specificity <-> recall for neg. class | |
-| 15. | ROC Curve | |
-| 16. | ROC AUC score | |
-| 17. | Precision Recall Curve | |
-| 18. | False Positives rate (Type I Error) | |
-| 19. | False Negatives Rate (Type II Error) | |
-| 20. | Negative Predictive Value | |
-| 21. | False Discovery Rate | |
-| 22. | Cohen Kappa Metric | |
-| 23. | Matthews Correlation Coefficient MCC | |
-| 24. | PR AUC score (Average precision) | |
-| 25. | Log loss | |
-| 26. | Brier score | |
-| 27. | Cumulative gains chart | |
-| 28. | Lift curve (lift chart) | |
-| 29. | Kolmogorov-Smirnov plot | |
-| 30. | Kolmogorov-Smirnov statistic | |
-| 31 | Balanced Accuracy | |
+| 2. | True Positives | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 3. | True Negatives | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 4. | False Positives | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 5. | False Negatives | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 6. | Confusion Matrix | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 7. | Binary Accuracy | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 8. | Multiclass Accuracy | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 9. | Precision <-> Positive Predictive Value | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 10. | F beta score | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 11. | F1score_cm | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 12. | F2 score (beta=2) | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 13. | True Positives rate <-> sensitivity <-> recall | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 14. | True Negatives Rate <-> specificity <-> recall for neg. class | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 15. | ROC Curve | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 16. | ROC AUC score | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 17. | Precision Recall Curve | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 18. | False Positives rate (Type I Error) | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 19. | False Negatives Rate (Type II Error) | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 20. | Negative Predictive Value | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 21. | False Discovery Rate | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 22. | Cohen Kappa Metric | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 23. | Matthews Correlation Coefficient MCC | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 24. | PR AUC score (Average precision) | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 25. | Log loss | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 26. | Brier score | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 27. | Cumulative gains chart | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 28. | Lift curve (lift chart) | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 29. | Kolmogorov-Smirnov plot | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 30. | Kolmogorov-Smirnov statistic | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
+| 31 | Balanced Accuracy | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/github_logo_mini.jpg)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
 
 ## Accuracy
 
