@@ -2,7 +2,7 @@
 
 | Sl. No. | Name of the Metrics | Link |
 | :---: | :--- | :---: |
-| 1. | Accuracy | |
+| 1. | Accuracy | [![github-logo](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/gitHub_mark.png)](https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/ml_metrics/metrics.py) |
 | 2. | True Positives | |
 | 3. | True Negatives | |
 | 4. | False Positives | |
