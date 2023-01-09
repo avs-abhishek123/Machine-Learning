@@ -1,7 +1,7 @@
 # Machine Learning Metrics
 
 | Sl. No. | Name of the Metrics | Link |
-| :---: | :--- | |
+| :---: | :--- | :---: |
 | 1. | Accuracy | |
 | 2. | True Positives | |
 | 3. | True Negatives | |
