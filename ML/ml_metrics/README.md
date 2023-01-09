@@ -36,9 +36,7 @@
 
 ## Accuracy
 
-It measures how many observations, both positive and negative, were correctly classified.
-
-You shouldn’t use accuracy on imbalanced problems. Then, it is easy to get a high accuracy score by simply classifying all observations as the majority class. For example in our case, by classifying all transactions as non-fraudulent we can get an accuracy of over 0.9.
+It measures how many observations, both positive and negative, were correctly classified. You shouldn’t use accuracy on imbalanced problems. Then, it is easy to get a high accuracy score by simply classifying all observations as the majority class. For example in our case, by classifying all transactions as non-fraudulent we can get an accuracy of over 0.9.
 
 ### When to use it
 
