@@ -1,5 +1,38 @@
 # Machine Learning Metrics
 
+| Sl. No. | Name of the Metrics |
+| :---: | :--- |
+| 1. | Accuracy |
+| 2. | True Positives |
+| 3. | True Negatives |
+| 4. | False Positives |
+| 5. | False Negatives |
+| 6. | Confusion Matrix |
+| 7. | Binary Accuracy |
+| 8. | Multiclass Accuracy |
+| 9. | Precision <-> Positive Predictive Value |
+| 10. | F beta score |
+| 11. | F1score_cm |
+| 12. | F2 score (beta=2) |
+| 13. | True Positives rate <-> sensitivity <-> recall |
+| 14. | True Negatives Rate <-> specificity <-> recall for neg. class |
+| 15. | ROC Curve |
+| 16. | ROC AUC score |
+| 17. | Precision Recall Curve |
+| 18. | False Positives rate (Type I Error) |
+| 19. | False Negatives Rate (Type II Error) |
+| 20. | Negative Predictive Value |
+| 21. | False Discovery Rate |
+| 22. | Cohen Kappa Metric |
+| 23. | Matthews Correlation Coefficient MCC |
+| 24. | PR AUC score (Average precision) |
+| 25. | Log loss |
+| 26. | Brier score |
+| 27. | Cumulative gains chart |
+| 28. | Lift curve (lift chart) |
+| 29. | Kolmogorov-Smirnov plot |
+| 30. | Kolmogorov-Smirnov statistic |
+
 ## Accuracy
 
 It measures how many observations, both positive and negative, were correctly classified.
@@ -11,31 +44,49 @@ You shouldn’t use accuracy on imbalanced problems. Then, it is easy to get a h
 - When your problem is balanced using accuracy is usually a good start. An additional benefit is that it is really easy to explain it to non-technical stakeholders in your project,
 - When every class is equally important to you.
 
+- - -
+
 ## True Positives
 
 A true positive is an outcome where the model correctly predicts the positive class.
+
+- - -
 
 ## True Negatives
 
 A true negative is an outcome where the model correctly predicts the negative class.
 
+- - -
+
 ## False Positives
 
 A false positive is an outcome where the model incorrectly predicts the positive class.
+
+- - -
 
 ## False Negatives
 
 A false negative is an outcome where the model incorrectly predicts the negative class.
 
+- - -
+
 ## Confusion Matrix
 
 A confusion matrix is a table that is used to define the performance of a classification algorithm. A confusion matrix visualizes and summarizes the performance of a classification algorithm.
+
+- - -
 
 ## Binary Accuracy
 
 Binary Accuracy calculates the percentage of predicted values (yPred) that match with actual values (yTrue) for binary labels. Since the label is binary, yPred consists of the probability value of the predictions being equal to 1.
 
+- - -
+
 ## Multiclass Accuracy
+
+Accuracy is one of the most popular metrics in multi-class classification and it is directly computed from the confusion matrix. The formula of the Accuracy considers the sum of True Positive and True Negative elements at the numerator and the sum of all the entries of the confusion matrix at the denominator.
+
+- - -
 
 ## Precision <-> Positive Predictive Value
 
@@ -48,6 +99,8 @@ When you are optimizing precision you want to make sure that people that you put
 - Again, it usually doesn’t make sense to use it alone but rather coupled with other metrics like recall.
 - When raising false alerts is costly, when you want all the positive predictions to be worth looking at you should optimize for precision.
 
+- - -
+
 ## F beta score
 
 Simply put, it combines precision and recall into one metric. The higher the score the better our model is. You can calculate it in the following way:
@@ -55,6 +108,8 @@ Simply put, it combines precision and recall into one metric. The higher the sco
 When choosing beta in your F-beta score the more you care about recall over precision the higher beta you should choose. For example, with F1 score we care equally about recall and precision with F2 score, recall is twice as important to us.
 
 With 0<beta<1 we care more about precision and so the higher the threshold the higher the F beta score. When beta>1 our optimal threshold moves toward lower thresholds and with beta=1 it is somewhere in the middle.
+
+- - -
 
 ## F1score_cm
 
@@ -71,6 +126,8 @@ We can adjust the threshold to optimize F1 score. Notice that for both precision
 
 - Pretty much in every binary classification problem. It is my go-to metric when working on those problems. It can be easily explained to business stakeholders.
 
+- - -
+
 ## F2 score (beta=2)
 
 It’s a metric that combines precision and recall, putting 2x emphasis on recall.
@@ -83,6 +140,8 @@ We can see that with a lower threshold and therefore more true positives recalle
 
 - I’d consider using it when recalling positive observations (fraudulent transactions) is more important than being precise about it
 
+- - -
+
 ## True Positives rate <-> sensitivity <-> recall
 
 It measures how many observations out of all positive observations have we classified as positive. It tells us how many fraudulent transactions we recalled from all fraudulent transactions.
@@ -91,6 +150,8 @@ It measures how many observations out of all positive observations have we class
 
 - Usually, you will not use it alone but rather coupled with other metrics like precision.
 - That being said, recall is a go-to metric, when you really care about catching all fraudulent transactions even at a cost of false alerts. Potentially it is cheap for you to process those alerts and very expensive when the transaction goes unseen.
+
+- - -
 
 ## True Negatives Rate <-> specificity <-> recall for neg. class
 
@@ -101,6 +162,8 @@ It measures how many observations out of all negative observations have we class
 - Usually, you don’t use it alone but rather as an auxiliary metric,
 - When you really want to be sure that you are right when you say something is safe. A typical example would be a doctor telling a patient “you are healthy”. Making a mistake here and telling a sick person they are safe and can go home is something you may want to avoid.
 
+- - -
+
 ## ROC Curve
 
 It is a chart that visualizes the tradeoff between true positive rate (TPR) and false positive rate (FPR). Basically, for every threshold, we calculate TPR and FPR and plot it on one chart.
@@ -110,6 +173,8 @@ Of course, the higher TPR and the lower FPR is for each threshold the better and
 Extensive discussion of ROC Curve and ROC AUC score can be found in this article by Tom Fawcett.
 
 We can see a healthy ROC curve, pushed towards the top-left side both for positive and negative class. It is not clear which one performs better across the board as with FPR < ~0.15 positive class is higher and starting from FPR~0.15 the negative class is above.
+
+- - -
 
 ## ROC AUC score
 
@@ -125,6 +190,8 @@ We can see improvements and the models that one would guess to be better are ind
 - You should not use it when your data is heavily imbalanced. It was discussed extensively in this article by Takaya Saito and Marc Rehmsmeier. The intuition is the following: false positive rate for highly imbalanced datasets is pulled down due to a large number of true negatives.
 - You should use it when you care equally about positive and negative classes. It naturally extends the imbalanced data discussion from the last section. If we care about true negatives as much as we care about true positives then it totally makes sense to use ROC AUC.
 
+- - -
+
 ## Precision Recall Curve
 
 It is a curve that combines precision (PPV) and Recall (TPR) in a single visualization. For every threshold, you calculate PPV and TPR and plot it. The higher on y-axis your curve is the better your model performance.
@@ -132,6 +199,8 @@ It is a curve that combines precision (PPV) and Recall (TPR) in a single visuali
 You can use this plot to make an educated decision when it comes to the classic precision/recall dilemma. Obviously, the higher the recall the lower the precision. Knowing at which recall your precision starts to fall fast can help you choose the threshold and deliver a better model.
 
 We can see that for the negative class we maintain high precision and high recall almost throughout the entire range of thresholds. For the positive class precision is starting to fall as soon as we are recalling 0.2 of true positives and by the time we hit 0.8, it decreases to around 0.7.
+
+- - -
 
 ## False Positives rate (Type I Error)
 
@@ -142,6 +211,8 @@ When we predict something when it isn’t we are contributing to the false posit
 - You rarely would use this metric alone. Usually as an auxiliary one with some other metric,
 - If the cost of dealing with an alert is high you should consider increasing the threshold to get fewer alerts.
 
+- - -
+
 ## False Negatives Rate (Type II Error)
 
 When we don’t predict something when it is, we are contributing to the false negative rate. You can think of it as a fraction of missed fraudulent transactions that your model lets through.
@@ -150,6 +221,8 @@ When we don’t predict something when it is, we are contributing to the false n
 
 - Usually, it is not used alone but rather with some other metric,
 - If the cost of letting the fraudulent transactions through is high and the value you get from the users isn’t you can consider focusing on this number.
+
+- - -
 
 ## Negative Predictive Value
 
@@ -162,6 +235,8 @@ The higher the threshold the more cases are classified as negative and the score
 ### When to use it:
 
 - When we care about high precision on negative predictions. For example, imagine we really don’t want to have any additional process for screening the transactions predicted as clean. In that case, we may want to make sure that our negative predictive value is high.
+
+- - -
 
 ## False Discovery Rate
 
@@ -177,6 +252,8 @@ The higher the threshold, the less positive predictions. The less positive predi
 
 - Again, it usually doesn’t make sense to use it alone but rather coupled with other metrics like recall.
 - When raising false alerts is costly and when you want all the positive predictions to be worth looking at you should optimize for precision.
+
+- - -
 
 ## Cohen Kappa Metric
 
@@ -194,6 +271,8 @@ With the chart just like the one above we can find a threshold that optimizes co
 
 - This metric is not used heavily in the context of classification. Yet it can work really well for imbalanced problems and seems like a great companion/alternative to accuracy.
 
+- - -
+
 ## Matthews Correlation Coefficient MCC
 
 It’s a correlation between predicted classes and ground truth. It can be calculated based on values from the confusion matrix:
@@ -208,6 +287,8 @@ We can adjust the threshold to optimize MCC. In our case, the best score is at 0
 
 - When working on imbalanced problems,
 - When you want to have something easily interpretable.
+
+- - -
 
 ## PR AUC score (Average precision)
 
@@ -224,6 +305,8 @@ The models that we suspect to be “truly” better are in fact better in this m
 - when your data is heavily imbalanced. As mentioned before, it was discussed extensively in this article by Takaya Saito and Marc Rehmsmeier. The intuition is the following: since PR AUC focuses mainly on the positive class (PPV and TPR) it cares less about the frequent negative class.
 - when you care more about positive than negative class. If you care more about the positive class and hence PPV and TPR you should go with Precision-Recall curve and PR AUC (average precision).
 
+- - -
+
 ## Log loss
 Log loss is often used as the objective function that is optimized under the hood of machine learning models. Yet, it can also be used as a performance metric.
 
@@ -239,6 +322,8 @@ It is difficult to really see strong improvement and get an intuitive feeling fo
 
 - Pretty much always there is a performance metric that better matches your business problem. Because of that, I would use log-loss as an objective for your model with some other metric to evaluate performance.
 
+- - -
+
 ## Brier score
 
 It is a measure of how far your predictions lie from the true values. For one observation it simply reads:
@@ -252,6 +337,8 @@ Model from the experiment BIN-101 has the best calibration and for that model, o
 ### When to use it
 
 - When you care about calibrated probabilities
+
+- - -
 
 ## Cumulative gains chart
 
@@ -272,6 +359,8 @@ Say we were to use our model to assign possible fraudulent transactions for proc
 - Whenever you want to select the most promising customers or transactions to target and you want to use your model for sorting.
 - It can be a good addition to ROC AUC score which measures ranking/sorting performance of your model.
 
+- - -
+
 ## Lift curve (lift chart)
 
 It is pretty much just a different representation of the cumulative gains chart:
@@ -289,7 +378,10 @@ So for the top 10% of predictions, our model is over 10x better than random, for
 - Whenever you want to select the most promising customers or transactions to target and you want to use your model for sorting.
 - It can be a good addition to ROC AUC score which measures ranking/sorting performance of your model.
 
+- - -
+
 ## Kolmogorov-Smirnov plot
+
 KS plot helps to assess the separation between prediction distributions for positive and negative classes.
 
 In order to create it you:
@@ -301,6 +393,8 @@ In order to create it you:
 So it works similarly to cumulative gains chart but instead of just looking at positive class it looks at the separation between positive and negative class.
 
 So we can see that the largest difference is at a cutoff point of 0.034 of top predictions. After that threshold, it decreases at a moderate rate as we increase the percentage of top predictions. Around 0.8 it is really getting worse really fast. So even though the best separation is at 0.034 we could potentially push it a bit higher to get more positively classified observations.
+
+- - -
 
 ## Kolmogorov-Smirnov statistic
 
