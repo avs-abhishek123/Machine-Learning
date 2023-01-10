@@ -1,8 +1,4 @@
-# Simple Linear Regression
-
-![6772339_1608277678_simple](https://github.com/avs-abhishek123/Machine-Learning/blob/main/images/sample_images/6772339_1608277678_simple.jpg?raw=true)
-
-<hr style ="border: 10px solid purple; border-radius: 5px;">
+# Linear Regression
 
 | Content | Link |
 | :---: | :---: |
