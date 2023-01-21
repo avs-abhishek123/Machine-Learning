@@ -30,3 +30,5 @@ Effectively, SHAP can show us both the global contribution by using the feature 
 To use SHAP in Python we need to install SHAP module:
 
 pip install shap
+
+https://towardsdatascience.com/using-shap-values-to-explain-how-your-machine-learning-model-works-732b3f40e137#:~:text=SHAP%20values%20(SHapley%20Additive%20exPlanations,interpretability%20of%20machine%20learning%20models
