@@ -1,0 +1,25 @@
+philippelaban/summary_loop46
+
+The model 'GPT2LMHeadModel' is not supported for summarization. Supported models are
+[
+'BartForConditionalGeneration',
+'BigBirdPegasusForConditionalGeneration',
+'BlenderbotForConditionalGeneration',
+'BlenderbotSmallForConditionalGeneration',
+'EncoderDecoderModel',
+'FSMTForConditionalGeneration',
+'LEDForConditionalGeneration',
+'LongT5ForConditionalGeneration',
+'M2M100ForConditionalGeneration',
+'MarianMTModel',
+'MBartForConditionalGeneration',
+'MT5ForConditionalGeneration',
+'MvpForConditionalGeneration',
+'PegasusForConditionalGeneration',
+'PegasusXForConditionalGeneration',
+'PLBartForConditionalGeneration',
+'ProphetNetForConditionalGeneration',
+'SwitchTransformersForConditionalGeneration',
+'T5ForConditionalGeneration',
+'XLMProphetNetForConditionalGeneration'
+]
