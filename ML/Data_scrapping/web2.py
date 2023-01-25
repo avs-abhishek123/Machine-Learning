@@ -66,7 +66,7 @@ def scroll_to_bottom():
 # NOTE: If you only want to capture a few images,
 # there is no need to use the scroll_to_bottom() function.
 
-storage_location = "C:/Users/MSI/Desktop/Machine-Learning/images/dogs/"
+storage_location = "C:/Users/MSI/Desktop/Machine-Learning/images/" + query +"/"
 
 if not os.path.exists(storage_location):
     os.makedirs(storage_location)
