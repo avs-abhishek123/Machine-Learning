@@ -49,7 +49,7 @@ def scroll_to_bottom():
 
 			# waiting for the results to load
 			# Increase the sleep time if your internet is slow
-			time.sleep(3)
+			time.sleep(0.2)
 
 		except:
 			pass
@@ -72,33 +72,69 @@ if not os.path.exists(storage_location):
     os.makedirs(storage_location)
 
 # Loop to capture and save each image
-for i in range(1, 10000):
+# j = 1
+# while j<=10:
+"""
+scroll_to_bottom()
+for i in range(412, 700):
 
-	# range(1, 50) will capture images 1 to 49 of the search results
-	# You can change the range as per your need.
-	try:
+    # range(1, 50) will capture images 1 to 49 of the search results
+    # You can change the range as per your need.
+    try:
 
-	# XPath of each image
-		img = driver.find_element("xpath", 
-			'//*[@id="islrg"]/div[1]/div[' +
-		str(i) + ']/a[1]/div[1]/img')
+    # XPath of each image
+        img = driver.find_element("xpath", 
+            '//*[@id="islrg"]/div[1]/div[' +
+        str(i) + ']/a[1]/div[1]/img')
         # //*[@id="islrg"]/div[1]/div[1]/a[1]/div[1]/img
         # //*[@id="islrg"]/div[1]/div[2]/a[1]/div[1]/img
-		# Enter the location of folder in which
-		# the images will be saved
-		img.screenshot(storage_location +
-					query + '_' + str(i) + '.png')
-		# Each new screenshot will automatically
-		# have its name updated
+        # Enter the location of folder in which
+        # the images will be saved
+        img.screenshot(storage_location +
+                    query + '_' + str(i) + '.png')
+        # Each new screenshot will automatically
+        # have its name updated
 
-		# Just to avoid unwanted errors
-		time.sleep(0.2)
+        # Just to avoid unwanted errors
+        time.sleep(0.2)
 
-	except:
-		
-		# if we can't find the XPath of an image,
-		# we skip to the next image
-		continue
+    except:
+        
+        # if we can't find the XPath of an image,
+        # we skip to the next image
+        continue
+    # j+=1
+# scroll_to_bottom()
+"""
+
+for i in range(1, 411):
+
+    # range(1, 50) will capture images 1 to 49 of the search results
+    # You can change the range as per your need.
+    try:
+
+    # XPath of each image
+        img = driver.find_element("xpath", 
+            '//*[@id="islrg"]/div[1]/div[' +
+        str(i) + ']/a[1]/div[1]/img')
+        # //*[@id="islrg"]/div[1]/div[1]/a[1]/div[1]/img
+        # //*[@id="islrg"]/div[1]/div[2]/a[1]/div[1]/img
+        # Enter the location of folder in which
+        # the images will be saved
+        img.screenshot(storage_location +
+                    query + '_' + str(i) + '.png')
+        # Each new screenshot will automatically
+        # have its name updated
+
+        # Just to avoid unwanted errors
+        time.sleep(0.2)
+
+    except:
+        
+        # if we can't find the XPath of an image,
+        # we skip to the next image
+        continue
+    # j+=1
 # scroll_to_bottom()
 
 # Finally, we close the driver
