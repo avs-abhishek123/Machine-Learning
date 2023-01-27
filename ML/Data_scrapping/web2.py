@@ -5,7 +5,7 @@ import os
 from selenium.webdriver.common.by import By
 # What you enter here will be searched for in
 # Google Images
-query = "puppy"
+query = "cat"
 
 # Creating a webdriver instance
 driver = webdriver.Chrome('C:/Users/MSI/Desktop/Machine-Learning/chromedriver.exe')
