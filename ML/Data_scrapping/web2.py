@@ -5,7 +5,7 @@ import os
 from selenium.webdriver.common.by import By
 # What you enter here will be searched for in
 # Google Images
-query = "cat"
+query = "elon-m"
 
 # Creating a webdriver instance
 driver = webdriver.Chrome('C:/Users/MSI/Desktop/Machine-Learning/chromedriver.exe')
@@ -66,7 +66,7 @@ def scroll_to_bottom():
 # NOTE: If you only want to capture a few images,
 # there is no need to use the scroll_to_bottom() function.
 
-storage_location = "C:/Users/MSI/Desktop/Machine-Learning/images/" + query +"/"
+storage_location = "C:/Users/MSI/Desktop/Machine-Learning/images/final_images_elon" + query +"/"
 
 if not os.path.exists(storage_location):
     os.makedirs(storage_location)
@@ -107,7 +107,7 @@ for i in range(412, 700):
 # scroll_to_bottom()
 """
 
-for i in range(1, 411):
+for i in range(1, 400):
 
     # range(1, 50) will capture images 1 to 49 of the search results
     # You can change the range as per your need.
