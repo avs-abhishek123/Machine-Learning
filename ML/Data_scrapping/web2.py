@@ -5,7 +5,7 @@ import os
 from selenium.webdriver.common.by import By
 # What you enter here will be searched for in
 # Google Images
-query = "elon-m"
+query = "elon-msk"
 
 # Creating a webdriver instance
 driver = webdriver.Chrome('C:/Users/MSI/Desktop/Machine-Learning/chromedriver.exe')
@@ -107,7 +107,7 @@ for i in range(412, 700):
 # scroll_to_bottom()
 """
 
-for i in range(1, 400):
+for i in range(1, 390):
 
     # range(1, 50) will capture images 1 to 49 of the search results
     # You can change the range as per your need.
