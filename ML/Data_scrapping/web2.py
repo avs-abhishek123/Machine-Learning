@@ -5,7 +5,7 @@ import os
 from selenium.webdriver.common.by import By
 # What you enter here will be searched for in
 # Google Images
-queries = [
+"""queries = [
     "elon_m",
     "elon_tesla",
     "elon_m_tesla",
@@ -22,7 +22,19 @@ queries = [
     "elon_msk",
     "elon_mk",
     "elon_m",
+]"""
+
+queries = [
+    "jeff_bezoz_",
+    "mark_zuckerberg_",
+    "tim_cook_",
+    "bill_gates_",
+    "jeff_bezoz_amazon",
+    "mark_zuckerberg_facebook",
+    "tim_cook_apple",
+    "bill_gates_microsoft"
 ]
+
 for query in queries:
     # Creating a webdriver instance
     driver = webdriver.Chrome('C:/Users/MSI/Desktop/Machine-Learning/chromedriver.exe')
@@ -124,7 +136,7 @@ for query in queries:
     # scroll_to_bottom()
     """
 
-    for i in range(1, 390):
+    for i in range(1, 375):
 
         # range(1, 50) will capture images 1 to 49 of the search results
         # You can change the range as per your need.
