@@ -3,9 +3,10 @@
 --------------------------------------------------------------------------------
 
 
-[![Build Status](https://travis-ci.com/aladdinpersson/Machine-Learning-Collection.svg?branch=master)](https://travis-ci.com/aladdinpersson/Machine-Learning-Collection) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.com/aladdinpersson/Machine-Learning-Collection.svg?branch=master)](https://travis-ci.com/avs-abhishek123/Machine-Learning) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[logo]: https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/others/logo/youtube_logo.png
+[logo]: https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/others/logo/youtube_logo.png
 
 # Machine Learning Collection
 In this repository you will find tutorials and projects related to Machine Learning. I try to make the code as clear as possible, and the goal is be to used as a learning resource and a way to lookup problems to solve specific problems. For most I have also done video explanations on YouTube if you want a walkthrough for the code. If you got any questions or suggestions for future videos I prefer if you ask it on [YouTube](https://www.youtube.com/channel/UCFf3DOwYUF2Rhe2-rC3uy9A). This repository is contribution friendly, so if you feel you want to add something then I'd happily merge a PR :smiley:
@@ -15,12 +16,12 @@ In this repository you will find tutorials and projects related to Machine Learn
 - [PyTorch Tutorials](#pytorch-tutorials)
 	- [Basics](#basics)
 	- [More Advanced](#more-advanced)
-    - [Object Detection](#Object-Detection)
-	- [Generative Adversarial Networks](#Generative-Adversarial-Networks)
+    - [Object Detection](#object-detection)
+	- [Generative Adversarial Networks](#generative-adversarial-networks)
 	- [Architectures](#architectures)
 - [TensorFlow Tutorials](#tensorflow-tutorials)
 	- [Beginner Tutorials](#beginner-tutorials)
-	- [Architectures](#CNN-Architectures)
+	- [Architectures](#cnn-architectures)
 
 ## Machine Learning
 * [![Youtube Link][logo]]() &nbsp; [Linear Regression](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/algorithms/LinearRegression/linear_regression_gradient_descent.py) **- With Gradient Descent** :white_check_mark: 
