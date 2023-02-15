@@ -9,7 +9,7 @@
 [logo]: https://github.com/avs-abhishek123/Machine-Learning/blob/main/ML/others/logo/youtube_logo.png
 
 # Machine Learning Collection
-In this repository you will find tutorials and projects related to Machine Learning. I try to make the code as clear as possible, and the goal is be to used as a learning resource and a way to lookup problems to solve specific problems. For most I have also done video explanations on YouTube if you want a walkthrough for the code. If you got any questions or suggestions for future videos I prefer if you ask it on [YouTube](https://www.youtube.com/channel/UCFf3DOwYUF2Rhe2-rC3uy9A). This repository is contribution friendly, so if you feel you want to add something then I'd happily merge a PR :smiley:
+In this repository you will find tutorials and projects related to Machine Learning. I try to make the code as clear as possible, and the goal is be to used as a learning resource and a way to lookup problems to solve specific problems. If you got any questions or suggestions for future videos I prefer if you ask it on [YouTube](https://www.youtube.com/channel/UCFf3DOwYUF2Rhe2-rC3uy9A). This repository is contribution friendly, so if you feel you want to add something then I'd happily merge a PR :smiley:
 
 ## Table Of Contents
 - [Machine Learning Algorithms](#machine-learning)
