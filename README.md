@@ -43,13 +43,13 @@ If you have any specific video suggestion please make a comment on YouTube :)
 * [![Youtube Link][logo]]() &nbsp; [Recurrent Neural Network](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/Basics/pytorch_rnn_gru_lstm.py)
 * [![Youtube Link][logo]]() &nbsp; [Bidirectional Recurrent Neural Network](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/Basics/pytorch_bidirectional_lstm.py)
 * [![Youtube Link][logo]]() &nbsp; [Loading and saving model](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/Basics/pytorch_loadsave.py)
-* [![Youtube Link][logo]]() &nbsp; [Custom Dataset (Images)](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/Basics/custom_dataset)
-* [![Youtube Link][logo]]() &nbsp; [Custom Dataset (Text)](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/Basics/custom_dataset_txt)
+* [![Youtube Link][logo]]() &nbsp; [Custom Dataset (Images)](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/Basics/custom_dataset)
+* [![Youtube Link][logo]]() &nbsp; [Custom Dataset (Text)](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/Basics/custom_dataset_txt)
 * [![Youtube Link][logo]](h) &nbsp; [Mixed Precision Training](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/Basics/pytorch_mixed_precision_example.py)
-* [![Youtube Link][logo]]() &nbsp; [Imbalanced dataset](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/Basics/Imbalanced_classes)
+* [![Youtube Link][logo]]() &nbsp; [Imbalanced dataset](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/Basics/Imbalanced_classes)
 * [![Youtube Link][logo]]() &nbsp; [Transfer Learning and finetuning](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/Basics/pytorch_pretrain_finetune.py)
 * [![Youtube Link][logo]]() &nbsp; [Data augmentation using Torchvision](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/Basics/pytorch_transforms.py)
-* [![Youtube Link][logo]]() &nbsp; [Data augmentation using Albumentations](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/Basics/albumentations_tutorial)
+* [![Youtube Link][logo]]() &nbsp; [Data augmentation using Albumentations](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/Basics/albumentations_tutorial)
 * [![Youtube Link][logo]]() &nbsp; [TensorBoard Example](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/Basics/pytorch_tensorboard_.py)
 * [![Youtube Link][logo]]() &nbsp; [Calculate Mean and STD of Images](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/Basics/pytorch_std_mean.py)
 * [![Youtube Link][logo]]() &nbsp; [Simple Progress bar](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/Basics/pytorch_progress_bar.py)
@@ -60,7 +60,7 @@ If you have any specific video suggestion please make a comment on YouTube :)
 ### More Advanced
 * [![Youtube Link][logo]]() &nbsp; [Text Generating LSTM](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Projects/text_generation_babynames/generating_names.py)
 * [![Youtube Link][logo]]() &nbsp; [Semantic Segmentation w. U-NET](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/image_segmentation/semantic_segmentation_unet)
-* [![Youtube Link][logo]]() &nbsp; [Image Captioning](https://github.com/AladdinPerzon/Machine-Learning-Collection/tree/master/ML/Pytorch/more_advanced/image_captioning)
+* [![Youtube Link][logo]]() &nbsp; [Image Captioning](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/more_advanced/image_captioning)
 * [![Youtube Link][logo]]() &nbsp; [Neural Style Transfer](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/more_advanced/neuralstyle/nst.py)
 * [![Youtube Link][logo]]() &nbsp; [Torchtext [1]](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/more_advanced/torchtext/torchtext_tutorial1.py) [Torchtext [2]](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/more_advanced/torchtext/torchtext_tutorial2.py) [Torchtext [3]](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/more_advanced/torchtext/torchtext_tutorial3.py)
 * [![Youtube Link][logo]]() &nbsp; [Seq2Seq](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/more_advanced/Seq2Seq/seq2seq.py) **- Sequence to Sequence (LSTM)**
@@ -94,7 +94,7 @@ If you have any specific video suggestion please make a comment on YouTube :)
 
 ### Architectures
 * [![Youtube Link][logo]]() &nbsp; [LeNet5](https://github.com/avs-abhishek123/Machine-Learning/blob/2b0a5061275151fdd308db8a65a0193c55ee42ab/ML/Pytorch/CNN_architectures/lenet5_pytorch.py#L12-L52) **- CNN architecture**
-* [![Youtube Link][logo]]() &nbsp; [VGG](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/79f2e1928906f3cccbae6c024f3f79fd05262cd1/ML/Pytorch/CNN_architectures/pytorch_vgg_implementation.py#L16-L62) **- CNN architecture**
+* [![Youtube Link][logo]]() &nbsp; [VGG](https://github.com/avs-abhishek123/Machine-Learning/blob/21a44a7aac0e732d0c21f520f265297fc8abc13e/ML/Pytorch/CNN_architectures/pytorch_vgg_implementation.py#L12-L106) **- CNN architecture**
 * [![Youtube Link][logo]]() &nbsp; [Inception v1](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/CNN_architectures/pytorch_inceptionet.py) **- CNN architecture**
 * [![Youtube Link][logo]]() &nbsp; [ResNet](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/CNN_architectures/pytorch_resnet.py) **- CNN architecture**
 * [![Youtube Link][logo]]() &nbsp; [EfficientNet](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/Pytorch/CNN_architectures/pytorch_efficientnet.py) **- CNN architecture**
@@ -119,10 +119,10 @@ If you have any specific video suggestion please make a comment on YouTube :)
 * [![Youtube Link][logo]]() &nbsp; [Tutorial 14 - Callbacks](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/TensorFlow/Basics/tutorial14-callbacks.py)
 * [![Youtube Link][logo]]() &nbsp; [Tutorial 15 - Custom model.fit](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/TensorFlow/Basics/tutorial15-customizing-modelfit.py)
 * [![Youtube Link][logo]]() &nbsp; [Tutorial 16 - Custom Loops](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/TensorFlow/Basics/tutorial16-customloops.py)
-* [![Youtube Link][logo]]() &nbsp; [Tutorial 17 - TensorBoard](https://github.com/AladdinPerzon/Machine-Learning-Collection/tree/master/ML/TensorFlow/Basics/tutorial17-tensorboard)
-* [![Youtube Link][logo]]() &nbsp; [Tutorial 18 - Custom Dataset Images](https://github.com/AladdinPerzon/Machine-Learning-Collection/tree/master/ML/TensorFlow/Basics/tutorial18-customdata-images)
-* [![Youtube Link][logo]]() &nbsp; [Tutorial 19 - Custom Dataset Text](https://github.com/AladdinPerzon/Machine-Learning-Collection/tree/master/ML/TensorFlow/Basics/tutorial19-customdata-text)
-* [![Youtube Link][logo]]() &nbsp; [Tutorial 20 - Classifying Skin Cancer](https://github.com/AladdinPerzon/Machine-Learning-Collection/tree/master/ML/TensorFlow/Basics/tutorial20-classify-cancer-beginner-project-example) **- Beginner Project Example**
+* [![Youtube Link][logo]]() &nbsp; [Tutorial 17 - TensorBoard](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/TensorFlow/Basics/tutorial17-tensorboard)
+* [![Youtube Link][logo]]() &nbsp; [Tutorial 18 - Custom Dataset Images](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/TensorFlow/Basics/tutorial18-customdata-images)
+* [![Youtube Link][logo]]() &nbsp; [Tutorial 19 - Custom Dataset Text](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/TensorFlow/Basics/tutorial19-customdata-text)
+* [![Youtube Link][logo]]() &nbsp; [Tutorial 20 - Classifying Skin Cancer](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/TensorFlow/Basics/tutorial20-classify-cancer-beginner-project-example) **- Beginner Project Example**
 
 ### CNN Architectures
 * [LeNet](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/TensorFlow/CNN_architectures/LeNet5)
