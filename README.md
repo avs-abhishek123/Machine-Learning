@@ -21,7 +21,7 @@ In this repository you will find tutorials and projects related to Machine Learn
 	- [Architectures](#architectures)
 - [TensorFlow Tutorials](#tensorflow-tutorials)
 	- [Beginner Tutorials](#beginner-tutorials)
-	- [Architectures](#cnn-architectures)
+	- [CNN Architectures](#cnn-architectures)
 
 ## Machine Learning
 * [![Youtube Link][logo]]() &nbsp; [Linear Regression](https://github.com/avs-abhishek123/Machine-Learning/tree/main/ML/algorithms/LinearRegression/linear_regression_gradient_descent.py) **- With Gradient Descent** :white_check_mark: 
